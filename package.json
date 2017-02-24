@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "my test login project",
   "main": "app.js",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/ekrako/meanauthapp.git"
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
