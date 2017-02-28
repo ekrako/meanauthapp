@@ -4,23 +4,24 @@
   "description": "my test login project",
   "main": "app.js",
   "repository": {
-  "type": "git",
-  "url": "git://github.com/ekrako/meanauthapp.git"
-},
+    "type": "git",
+    "url": "git://github.com/ekrako/meanauthapp.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
   },
-  "dependencies":{
-    "express":"*",
-    "mongoose":"*",
-    "bcryptjs":"*",
-    "cors":"*",
-    "jsonwebtoken":"*",
-    "body-parser":"*",
-    "passport":"*",
-    "passport-jwt":"*"
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
   },
   "author": "Eran Krakovsky",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }
