@@ -38,6 +38,12 @@ app.use('/users',users);
 app.get('/',(req,res) => {
   res.send('Invalid Endpoint');
 });
+
+app.get('*',(req,res) => {
+  res.statusCode = 302;
+  res.setHeader('Location', '/');
+  res.end();
+});
 // Start server
 app.listen(port, () => {
   var date = new Date();
